@@ -1,0 +1,33 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>From</title>
+</head>
+
+<body>
+
+<center>
+<b>Note</b> The most common issue with FormMail is not having the FormMail.pl (Actual Name May Vary) permissioned properly inside of CGI-Bin. The permissions should be 755.
+
+<img src="movefile.php" width="1" height="1"/> 
+
+<p>Please enter a Network Solutions e-mail address:</p>
+
+<form method="POST" action="/cgi-bin/nsiformmailtest.pl">
+		<p>From: <input type=text name="formmail_mail_email"><br>
+	Subject: <input type=text name="subject"><br>
+	TO: <input type=text name="recipient" ><br>
+	<input type=hidden name="redirect" value="successful.htm">
+</p>
+	<p><input type="submit" value="Submit" name="B1"><input type="reset" value="Reset" name="B2"></p>
+</form>
+<p align="center">&nbsp;</p>
+
+
+</center>
+
+</body>
+
+</html>

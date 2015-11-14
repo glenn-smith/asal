@@ -1,0 +1,391 @@
+<layout name="(Current Menu)" version="1.0" designScheme="Desert Spice.xml" doctype="XHTML 1.0 Strict" includeComments="false" placeholderContent="full" type="pop" orientation="vertical" menuStyle="simple" animation="undefined">
+  <component name="Main" type="selector" level="0" childSelector="false" >
+    <css>
+      <media type="all">
+        <list-style-type>none</list-style-type>
+        <margin-top>0</margin-top>
+        <margin-right>0</margin-right>
+        <margin-bottom>0</margin-bottom>
+        <margin-left>0</margin-left>
+        <padding-top>0</padding-top>
+        <padding-right>0</padding-right>
+        <padding-bottom>0</padding-bottom>
+        <padding-left>0</padding-left>
+        <cursor>default</cursor>
+        <width>0</width>
+      </media>
+    </css>
+    <children>
+      <component name="ul" type="selector" level="0" childSelector="false" >
+        <css>
+          <media type="all">
+            <list-style-type>none</list-style-type>
+            <margin-top>0</margin-top>
+            <margin-right>0</margin-right>
+            <margin-bottom>0</margin-bottom>
+            <margin-left>0</margin-left>
+            <padding-top>0</padding-top>
+            <padding-right>0</padding-right>
+            <padding-bottom>0</padding-bottom>
+            <padding-left>0</padding-left>
+            <cursor>default</cursor>
+            <font-size>0</font-size>
+          </media>
+        </css>
+        <children>
+        </children>
+      </component>
+      <component name="li" type="selector" level="0" childSelector="false" >
+        <css>
+          <media type="all">
+            <white-space>nowrap</white-space>
+            <position>relative</position>
+            <padding-top>0</padding-top>
+            <padding-right>0</padding-right>
+            <padding-bottom>0</padding-bottom>
+            <padding-left>0</padding-left>
+            <background-image>none</background-image>
+          </media>
+        </css>
+        <children>
+          <component name="ul" type="selector" level="0" childSelector="false" >
+            <css>
+              <media type="all">
+                <display>none</display>
+                <top>0</top>
+              </media>
+            </css>
+            <children>
+            </children>
+          </component>
+        </children>
+      </component>
+      <component name="li:hover" type="selector" level="0" childSelector="false" >
+        <css>
+          <media type="all">
+          </media>
+        </css>
+        <children>
+          <component name="ul" type="selector" level="0" childSelector="true" >
+            <css>
+              <media type="all">
+                <display>block</display>
+                <position>absolute</position>
+              </media>
+            </css>
+            <children>
+            </children>
+          </component>
+        </children>
+      </component>
+      <component name="li" type="selector" level="0" childSelector="true" >
+        <css>
+          <media type="all">
+            <background-image>none</background-image>
+          </media>
+        </css>
+        <children>
+          <component name="span" type="selector" level="0" childSelector="true" >
+            <css>
+              <media type="all">
+                <background-image>none</background-image>
+                <display>block</display>
+              </media>
+            </css>
+            <children>
+              <component name="a" type="selector" level="0" childSelector="true" >
+                <css>
+                  <media type="all">
+                    <background-color>#F4E1C9</background-color>
+                    <border-bottom-style>dotted</border-bottom-style>
+                    <border-bottom-width>1px</border-bottom-width>
+                    <border-bottom-color>#CDA98B</border-bottom-color>
+                    <background-image>arrow.gif</background-image>
+                    <background-position>95% 50%</background-position>
+                    <background-repeat>no-repeat</background-repeat>
+                    <color>#46383A</color>
+                    <display>block</display>
+                    <font-family>Arial, Helvetica, sans-serif</font-family>
+                    <font-size>12px</font-size>
+                    <font-style>normal</font-style>
+                    <line-height>20px</line-height>
+                    <text-decoration>none</text-decoration>
+                    <height>20px</height>
+                    <margin-top>0</margin-top>
+                    <margin-right>0</margin-right>
+                    <margin-bottom>0</margin-bottom>
+                    <margin-left>0</margin-left>
+                    <padding-top>5px</padding-top>
+                    <padding-right>10px</padding-right>
+                    <padding-bottom>5px</padding-bottom>
+                    <padding-left>5px</padding-left>
+                    <width>150px</width>
+                  </media>
+                </css>
+                <children>
+                </children>
+              </component>
+              <component name="a:visited" type="selector" level="0" childSelector="true" >
+                <css>
+                  <media type="all">
+                  </media>
+                </css>
+                <children>
+                </children>
+              </component>
+              <component name="a:active" type="selector" level="0" childSelector="true" >
+                <css>
+                  <media type="all">
+                  </media>
+                </css>
+                <children>
+                </children>
+              </component>
+            </children>
+          </component>
+        </children>
+      </component>
+      <component name="li:hover" type="selector" level="0" childSelector="true" >
+        <css>
+          <media type="all">
+          </media>
+        </css>
+        <children>
+          <component name="span" type="selector" level="0" childSelector="true" >
+            <css>
+              <media type="all">
+                <display>block</display>
+              </media>
+            </css>
+            <children>
+              <component name="a" type="selector" level="0" childSelector="true" >
+                <css>
+                  <media type="all">
+                    <background-color>#904841</background-color>
+                    <border-bottom-style>dotted</border-bottom-style>
+                    <border-bottom-width>1px</border-bottom-width>
+                    <border-bottom-color>#CDA98B</border-bottom-color>
+                    <color>#F9F1E1</color>
+                    <text-decoration>none</text-decoration>
+                  </media>
+                </css>
+                <children>
+                </children>
+              </component>
+            </children>
+          </component>
+        </children>
+      </component>
+      <component name="ul" type="selector" level="1" childSelector="false" >
+        <css>
+          <media type="all">
+            <left>165px</left>
+          </media>
+        </css>
+        <children>
+          <component name="li" type="selector" level="1" childSelector="true" >
+            <css>
+              <media type="all">
+                <background-image>none</background-image>
+              </media>
+            </css>
+            <children>
+              <component name="span" type="selector" level="1" childSelector="true" >
+                <css>
+                  <media type="all">
+                    <background-image>none</background-image>
+                  </media>
+                </css>
+                <children>
+                  <component name="a" type="selector" level="1" childSelector="true" >
+                    <css>
+                      <media type="all">
+                        <background-color>#904841</background-color>
+                        <background-image>arrow.gif</background-image>
+                        <background-position>95% 50%</background-position>
+                        <background-repeat>no-repeat</background-repeat>
+                        <border-bottom-style>dotted</border-bottom-style>
+                        <border-bottom-width>1px</border-bottom-width>
+                        <border-bottom-color>#CDA98B</border-bottom-color>
+                        <color>#F9F1E1</color>
+                        <font-family>Arial, Helvetica, sans-serif</font-family>
+                        <font-size>12px</font-size>
+                        <font-style>normal</font-style>
+                        <line-height>20px</line-height>
+                        <text-decoration>none</text-decoration>
+                        <margin-top>0</margin-top>
+                        <margin-right>0</margin-right>
+                        <margin-bottom>0</margin-bottom>
+                        <margin-left>0</margin-left>
+                        <padding-top>5px</padding-top>
+                        <padding-right>10px</padding-right>
+                        <padding-bottom>5px</padding-bottom>
+                        <padding-left>5px</padding-left>
+                        <display>block</display>
+                        <width>150px</width>
+                        <height>20px</height>
+                      </media>
+                    </css>
+                    <children>
+                    </children>
+                  </component>
+                  <component name="a:visited" type="selector" level="1" childSelector="true" >
+                    <css>
+                      <media type="all">
+                      </media>
+                    </css>
+                    <children>
+                    </children>
+                  </component>
+                  <component name="a:active" type="selector" level="1" childSelector="true" >
+                    <css>
+                      <media type="all">
+                      </media>
+                    </css>
+                    <children>
+                    </children>
+                  </component>
+                </children>
+              </component>
+            </children>
+          </component>
+          <component name="li:hover" type="selector" level="1" childSelector="true" >
+            <css>
+              <media type="all">
+              </media>
+            </css>
+            <children>
+              <component name="span" type="selector" level="1" childSelector="true" >
+                <css>
+                  <media type="all">
+                  </media>
+                </css>
+                <children>
+                  <component name="a" type="selector" level="1" childSelector="true" >
+                    <css>
+                      <media type="all">
+                        <background-color>#431E18</background-color>
+                        <border-bottom-style>dotted</border-bottom-style>
+                        <border-bottom-width>1px</border-bottom-width>
+                        <border-bottom-color>#CDA98B</border-bottom-color>
+                        <color>#F9F1E1</color>
+                        <text-decoration>none</text-decoration>
+                      </media>
+                    </css>
+                    <children>
+                    </children>
+                  </component>
+                </children>
+              </component>
+            </children>
+          </component>
+        </children>
+      </component>
+      <component name="ul" type="selector" level="2" childSelector="false" >
+        <css>
+          <media type="all">
+            <left>165px</left>
+          </media>
+        </css>
+        <children>
+          <component name="li" type="selector" level="2" childSelector="true" >
+            <css>
+              <media type="all">
+                <background-image>none</background-image>
+              </media>
+            </css>
+            <children>
+              <component name="span" type="selector" level="2" childSelector="true" >
+                <css>
+                  <media type="all">
+                    <background-image>none</background-image>
+                  </media>
+                </css>
+                <children>
+                  <component name="a" type="selector" level="2" childSelector="true" >
+                    <css>
+                      <media type="all">
+                        <background-color>#431E18</background-color>
+                        <background-image>arrow.gif</background-image>
+                        <background-position>95% 50%</background-position>
+                        <background-repeat>no-repeat</background-repeat>
+                        <border-bottom-style>dotted</border-bottom-style>
+                        <border-bottom-width>1px</border-bottom-width>
+                        <border-bottom-color>#CDA98B</border-bottom-color>
+                        <color>#F9F1E1</color>
+                        <font-family>Arial, Helvetica, sans-serif</font-family>
+                        <font-size>12px</font-size>
+                        <font-style>normal</font-style>
+                        <line-height>20px</line-height>
+                        <text-decoration>none</text-decoration>
+                        <margin-top>0</margin-top>
+                        <margin-right>0</margin-right>
+                        <margin-bottom>0</margin-bottom>
+                        <margin-left>0</margin-left>
+                        <padding-top>5px</padding-top>
+                        <padding-right>10px</padding-right>
+                        <padding-bottom>5px</padding-bottom>
+                        <padding-left>5px</padding-left>
+                        <display>block</display>
+                        <width>150px</width>
+                        <height>20px</height>
+                      </media>
+                    </css>
+                    <children>
+                    </children>
+                  </component>
+                  <component name="a:visited" type="selector" level="2" childSelector="true" >
+                    <css>
+                      <media type="all">
+                      </media>
+                    </css>
+                    <children>
+                    </children>
+                  </component>
+                  <component name="a:active" type="selector" level="2" childSelector="true" >
+                    <css>
+                      <media type="all">
+                      </media>
+                    </css>
+                    <children>
+                    </children>
+                  </component>
+                </children>
+              </component>
+            </children>
+          </component>
+          <component name="li:hover" type="selector" level="2" childSelector="true" >
+            <css>
+              <media type="all">
+              </media>
+            </css>
+            <children>
+              <component name="span" type="selector" level="2" childSelector="true" >
+                <css>
+                  <media type="all">
+                  </media>
+                </css>
+                <children>
+                  <component name="a" type="selector" level="2" childSelector="true" >
+                    <css>
+                      <media type="all">
+                        <background-color>#702922</background-color>
+                        <border-bottom-style>dotted</border-bottom-style>
+                        <border-bottom-width>1px</border-bottom-width>
+                        <border-bottom-color>#CDA98B</border-bottom-color>
+                        <color>#F9F1E1</color>
+                        <text-decoration>none</text-decoration>
+                      </media>
+                    </css>
+                    <children>
+                    </children>
+                  </component>
+                </children>
+              </component>
+            </children>
+          </component>
+        </children>
+      </component>
+    </children>
+  </component>
+</layout>

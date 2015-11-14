@@ -1,0 +1,1277 @@
+LanguageOrder
+/* This is just for info - not a config option! */
+english
+german
+serbian
+polish
+portuguese
+swedish
+dutch
+
+WebYepProductURL
+/* URL for link to product page */
+http://www.obdev.at/products/webyep/
+http://www.obdev.at/products/webyep/
+http://www.obdev.at/products/webyep/
+http://www.obdev.at/products/webyep/
+http://www.obdev.at/products/webyep/
+http://www.obdev.at/products/webyep/
+http://www.obdev.at/products/webyep/
+
+info.php
+/* filename for lang specific info.php file */
+/* nome de ficheiro info.php especifico em português */
+info-en.php
+info-de.php
+info-de.php
+info-pl.php
+info-pt.php
+info-sv.php
+info-en.php
+
+editTheField
+/* T! */
+/* tool tip when hovering over edit icon in browser */
+/* dica para quando se está a correr com o rato por cima do icon de edit no browser */
+/* missing translations: portuguese */
+edit %s
+%s bearbeiten
+podesi %s
+edytuj %s
+edit %s
+Redigera %s
+Bewerk %s
+
+CloseWindow
+/* T! */
+/* button title for close button in several windows */
+/* Titulo do butão para fecho de janelas multiplas */
+Close Window
+Fenster schließen
+zatvori prozor
+Zamknij okno
+Fecho de Janela
+Stäng fönster
+Sluit venster
+
+BackLink
+/* T! */
+/* button title for back button in several windows */
+/* include "<" and ">"! */
+/* Titulo do butão de recuo em várias janelas */
+<back>
+<zurück>
+<nazad>
+<wstecz>
+<para trás>
+<tillbaka>
+<terug>
+
+WebYepLogon
+/* T! */
+/* title of login window */
+/* titulo da janela de LOGIN */
+/* missing translations: portuguese */
+Logon
+Anmeldung
+Prijava
+Logowanie
+Logon
+inloggning
+Login
+
+LogonButtonTitle
+/* T! */
+/* button title of login button */
+/* Titulo do butão de LOGIN */
+/* missing translations: portuguese */
+Logon
+Anmelden
+Prijavi se
+Zaloguj
+Logon
+Logga in
+Login
+
+LogonSucceded
+/* T! */
+/* success message of login window */
+/* mensagem de LOGIN com sucesso */
+User logged in
+Anmeldung erfolgreich
+Prijava je bila uspesna
+Logowanie powiodło się
+Utilizador autorizado
+Du är nu inloggad
+Succesvol ingelogd
+
+LogonFailed
+/* T! */
+/* error message of login window */
+/* mensagem de LOGIN com erro */
+Username or password incorrect
+Benutzername oder Kennwort falsch
+Pogresno korisnicko ime ili sifra
+Login lub hasło jest niepoprawne
+Utilizador ou passwrod errada
+Användarnamn eller lösenord felaktigt
+Gebruikersnaam of wachtwoord incorrect
+
+Username
+/* T! */
+/* form field caption for username field in login window */
+/* Campo na janela de LOGIN para o nome do utilizador */
+Username
+Benutzername
+Korisnicko ime
+Nazwa użytkownika
+Utilizador
+Användarnamn
+Gebruikersnaam
+
+Password
+/* T! */
+/* form field caption for password field in login window */
+/* Campo na janela de LOGIN para a password do utilizador */
+Password
+Kennwort
+Sifra
+Hasło
+Password
+Lösenord
+Wachtwoord
+
+WebYepNotice
+/* T! */
+/* window title for arbitrary notice windows */
+/* Titulo da janela para avisos */
+Notice
+Hinweis
+Pojasnjenje
+Ostrzeżenie
+Atenção
+Meddelande
+Mededeling
+
+HeaderProblemTitle
+/* T! */
+/* error message title, when HTTP headers could not be sent */
+/* Titulo das mensagens de erro quando os headers HTTP não podem ser enviados */
+HTTP Header Problem
+Problem mit HTTP Header
+Problem sa HTTP zaglavljem
+Problem z nagłówkiem HTTP
+Problema com os headers HTTP
+Problem med HTTP Header
+Probleem met HTTP header
+
+HeaderProblemMessage
+/* T! */
+/* error message, when HTTP headers could not be sent */
+/* mensagem de erro auando os headers HTTP não podem ser enviados */
+Your HTML source does not start with the WebYep init code! Please see the WebYep documentation for details.
+Ihr HTML-Code beginnt nicht mit dem WebYep Initialisierungs Code! Bitte lesen Sie die WebYep-Dokumentation für nähere Hinweise.
+Vas HTML kod ne pocinje WebYep kodom za inicijaliziranje! Pogledajte WebYep dokumenataciju za dodatna objasnjenja.
+Twoje źrógło HTML nie zaczyna się od kodu inicjującego WebYep! Sprawdź instrukcję w celu rozwiązania tego problemu.
+O seu código fonte HTML não se inicia com o código inicial do WebYep ! Veja a documentação para mais detalhes.
+HTML-koden börjar inte med WebYeps initieringskod! Vänligen läs dokumentationen.
+De HTML broncode begint niet met de WebYep init code! Bekijk de WebYep documentatie voor details.
+
+DataAccessProblemTitle
+/* T! */
+/* error message title, when data folder permissions are not set properly */
+/* Titulo da janela de erros, quando as permissões da pasta de dados não está correctamente configurada */
+Can not write data
+Daten können nicht geschrieben werden
+Podaci ne mogu da budu upisani (write)
+Błąd zapisu danych
+Não se consegue escrever os dados pretendidos
+Kan ej skriva datat
+Kan geen data wegschrijven
+
+DataAccessProblemText
+/* T! */
+/* error message, when data folder permissions are not set properly */
+/* Mensagem de erro quando as permissões para a pasta de dados não estão configuradas correctamente */
+WebYep can not write it's data - maybe WebYep ist not "activated"? (see help)
+WebYep kann keine Daten schreiben - ist WebYep "aktiviert"? (siehe "Hilfe")
+WebYep ne moze da upise podatke - da li ste "aktivirali" WebYep? (vidi "Pomoc")
+WebYep nie może zapisać danych - czyżby WebYep nie był aktywowany? (sprawdź "Pomoc")
+WebYep não consegue escrever os dados - talvez o WebYep não esteja activado. A correr em modo demo ? (see help)
+WebYep kan inte skriva datat - är WebYep "aktiverat på rätt sätt? (se hjälpen)
+WebYep kan geen data wegschrijven - wellicht is WebYep niet "geactiveerd"? (zie Help)
+
+LogoProblemTitle
+/* T! */
+/* error message title, when logo was changed */
+/* Titulo da mensagem de erro quando um logotipo é alterado */
+Unauthorized program alteration
+Nicht erlaubte Programmänderung
+Nedozvoljena promena u programu
+Nieautoryzowana zmiana programu
+Tentativa de alteração do programa não autorizado
+Ej tillåten programändring
+Ongeauthoriseerde programmawijziging
+
+LogoProblemMessage
+/* T! */
+/* error message, when logo was changed */
+/* Mensagem de erro quando se tenta alterar o logotipo */
+This WebYep installation was altered in a not authorized way!
+An dieser WebYep-Installation wurden unerlaubte Änderungen vorgenommen!
+Na ovoj WebYep instalaciji su sprovedene nedozvoljene promene!
+Ta instalacja WebYep została zmieniona w nieautoryzowany sposób!
+Esta instalação do WebYep foi alterada de uma forma não autorizada !
+Den här WebYep-installation har ändrats på ett ej tillåtet sätt!
+Deze WebYep installatie is op ongeoorloofde wijze aangepast!
+
+WebYepDemo
+/* T! */
+/* title of demo notice window */
+/* Titulo de janela DEMO */
+Demo
+Demo
+Demo
+Demo
+Demonstração
+demoläge
+Demo
+
+DemoNotice
+/* T! */
+/* text of demo notice window */
+/* Texto da janela DEMO */
+This Website uses <b>%s</b> in <b>demo mode!</b>
+Diese WebSite verwendet <b>%s</b> im <b>Demo-Modus!</b>
+Ovaj web sajt koristi <b>%s</b> u <b>Demo-modusu!</b>
+Ta strona używa <b>%s</b> w trybie demo!</b>
+Atenção: Este site está a usar o WebYep em modo DEMO!</b>
+Webbsidan använder <b>%s</b> i <b>demoläge!</b>
+Deze website gebruikt <b>%s</b> in <b>demo mode!</b>
+
+DemoNotice2
+/* T! */
+/* more text of demo notice window */
+/* Mais texto na janela DEMO */
+Please order a license code for <b>&quot;%s&quot;</b> and enter it in the following text field to disable this notice:
+Erwerben Sie einen Lizenzcode für <b>&quot;%s&quot;</b><br>und geben Sie ihn hier ein, um diese Meldung zu deaktivieren:
+Nabavite licencu za <b>&quot;%s&quot;</b><br> i upisite je ovde:
+Proszę zamówić kod licenyjny dla tej strony i wpisać (<b>&quot;%s&quot;</b>) go w następujące pole tekstowe:
+Por favor para usar todas as funcionalidades do WebYep obtenha uma <b>licença válida</b> para este site e inseria no campo seguinte:
+Vänligen beställ en licenskod för <b>&quot;%s&quot;</b> och skriv sedan in koden i fältet nedan (därefter avlägsnas detta meddelande).
+Bestel een licentiecode voor <b>&quot;%s&quot;</b> en vul deze in het volgende veld in om deze melding te deactiveren:
+
+OrderURL
+/* URL to shop page */
+/* URL para a página de compra do WebYep */
+http://www.obdev.at/webyep/order.html
+http://www.obdev.at/webyep/order-de.html
+http://www.obdev.at/webyep/order-de.html
+http://www.obdev.at/webyep/order.html
+http://www.obdev.at/webyep/order.html
+http://www.obdev.at/webyep/order.html
+http://www.obdev.at/webyep/order.html
+
+OrderLicenseButtonTitle
+/* T! */
+/* title of button for ordering WebYep license */
+Order License
+Lizenzcode erwerben
+Nabavite licencu
+Zamów licencję
+Compra da Licença
+Beställ licens
+Bestel licentie
+
+LicenseSaveButtonTitle
+/* T! */
+/* title of button for saving entered license */
+/* Titulo do butão para guardar a licença WebYep */
+Save License
+Lizenzcode speichern
+licenu sacuvati
+Zapisz licencję
+Guardar Licença
+Spara licens
+Bewaar Licentie
+
+LicenseSaved
+/* T! */
+/* success message after saving license */
+/* Mensagem de sucesso depois do guardar da licença WebYep */
+License saved
+Lizenz gespeichert
+licena je sacuvana
+Licenca zapisana
+Licença guardada com sucesso
+Licensen sparad
+Licentie bewaard
+
+SaveButton
+/* T! */
+/* title of arbitrary safe button */
+/* Titulo do butão Guardar */
+Save
+Speichern
+Sacuvati
+Zapisz
+Guardar
+Spara
+Bewaar
+
+CancelButton
+/* T! */
+/* title of arbitrary cancel button */
+/* Titulo do butão Cancelar */
+Cancel
+Abbrechen
+Prekid
+Anuluj
+Cancelar
+Avbryt
+Annuleer
+
+ShortTextEditorTitle
+/* T! */
+/* window title for Short Text Element editor window */
+/* Titulo da janela para a janela de edição Short Text */
+Short Text
+Kurztext
+Kratak tekst
+Krótki tekst
+Short Text
+Rubriktext
+Korte tekst
+
+ShortTextSaved
+/* T! */
+/* success message for Short Text Element editor window */
+/* Mensagem de sucesso para a janela de edição Short Text */
+Text saved
+Text wurde gespeichert
+Tekst je memorisan
+Krótki tekst zapisany
+Texto guardado com sucesso
+Texten sparad
+Korte tekst is opgeslagen
+
+LongTextEditorTitle
+/* T! */
+/* window title for Long Text Element editor window */
+/* Titulo da janela para a janela Long Text */
+Long Text
+Text
+Tekst
+Tekst
+Long Text
+Brödtext
+Alinea
+
+LongTextSaved
+/* T! */
+/* success message for Long Text Element editor window */
+/* Mensagem de sucesso para a janela de edição Long Text */
+Text saved
+Text wurde gespeichert
+Tekst je sacuvan
+Tekst zapisany
+Texto guardado com sucesso
+Texten sparad
+Alinea is opgeslagen
+
+RichTextEditorTitle
+/* T! */
+/* window title for Rich Text Element editor window */
+/* Titulo da janela para a janela de edição Rich Text */
+Rich Text
+HTML-Text
+Vidljivi tekst
+Tekst WYSWIG
+Rich Text
+Rich text
+Opgemaakte tekst
+
+RichTextSaved
+/* T! */
+/* success message for Rich Text Element editor window */
+/* Mensagem de sucesso para a janela de edição Rich Text */
+Text saved
+Text wurde gespeichert
+Tekst je sacuvan
+Tekst zapisany
+Texto guardado com sucesso
+Rich text sparad
+Opgemaakte tekst is opgeslagen
+
+ImageEditorTitle
+/* T! */
+/* window title for Image Element editor window */
+/* Titulo da janela para o janela de edição de Imagem */
+Image
+Bild
+Slika
+Obraz
+Imagem
+Bild
+Afbeelding
+
+ImageSaved
+/* T! */
+/* success message for Image Element editor window */
+/* Mensagem de sucesso para a janela de edição de Imagem */
+Image saved
+Bild wurde gespeichert
+Slika je sacuvana
+Obraz zapisany
+Imagem guardada
+Bilden sparad
+Afbeelding is opgeslagen
+
+ImageStoreFailed
+/* T! */
+/* failure message for Image Element editor window */
+/* missing translations: serbian, polish, portuguese */
+Could not store the image
+Das Bild konnte nicht gespeichert werden
+Could not store the image
+Could not store the image
+Could not store the image
+Det gick inte att spara bilden
+Afbeelding kon niet worden opgeslagen
+
+ImageCannotResize
+/* T! */
+/* message in editor window if no GD lib installed */
+/* missing translations: serbian, polish, portuguese */
+Uploaded images cannot be resized on this server!
+Hochgeladene Bilder können auf diesem Server nicht verkleinert werden!
+Uploaded images cannot be resized on this server!
+Uploaded images cannot be resized on this server!
+Uploaded images cannot be resized on this server!
+Uppladdade bilder kan ej skalas ned i storlek av den här webbservern!
+De grootte van de afbeelding kan niet op de server worden aangepast!
+
+ImageDeleted
+/* T! */
+/* success message when deleting an image in the Image Element editor window */
+/* Mensagem de sucesso quando se deleta uma imagem na janela de edição de Imagem */
+Image deleted
+Bild wurde gelöscht
+Slika je obrisana
+Obraz usunięty
+Imagem deletada
+Bilden borttagen
+Afbeelding verwijderd
+
+ImageFile
+/* T! */
+/* form field caption for the image file to be uploaded */
+/* Campo para selecionar o ficheiro de imagem para ser enviado (uploaded) */
+Image file
+Bilddatei
+Graficki fajl
+Plik obrazka
+Ficheiro de imagem
+Bildfil
+Afbeelding
+
+ImageLinkURL
+/* T! */
+/* form field caption for the URL to be linked to by the image */
+/* Campo para o URL a ser ligado á imagem */
+Link URL
+Link URL
+Link URL
+URL do pliku
+Link URL
+Länk URL
+Link URL
+
+ImageAltText
+/* T! */
+/* form field caption for the alt attribute of img tag */
+/* missing translations: portuguese */
+"Alt" text
+"Alt"-Text
+"Alt" text
+"Alt" text
+"Alt" text
+"Alt"-text
+"Alt-tekst"
+
+DeleteImageButton
+/* T! */
+/* title of button for deleting the image */
+/* Titulo do butão para apagar a imagem */
+Delete Image
+Bild löschen
+Obrisi sliku
+Usuń obrazek
+Apagar a imagem
+Radera bild
+Verwijder afbeelding
+
+DeleteImageQuestion
+/* T! */
+/* confirmation for image deletion */
+/* Confirmação para o apagar da imagem */
+Really delete this image?
+Dieses Bild wirklich loeschen?
+Zaista obrisati sliku?
+Czy na pewno usunąć ten obrazek?
+É mesmo para apagar esta imagem ?
+Radera bilden?
+De afbeelding echt verwijderen?
+
+Photo
+/* T! */
+/* HTML alt attribute  for <img> tags of Image Element */
+/* HTML alt attribute  para <img> tags da imagem */
+Photo
+Foto
+Foto
+Fotografia
+Foto
+Foto
+Foto
+
+FileEditorTitle
+/* T! */
+/* window title for Attachment Element editor window */
+/* Titulo da janela de edição de ficheiros attachados */
+File Attachment
+Datei-Download
+Skidanje fajlova
+Plik załącznika
+Ficheiros attachados
+Bifogad fil
+Gelinkt bestand
+
+FileSaved
+/* T! */
+/* success message for Attachment Element editor window */
+/* Mensagem de sucesso para a janela de edição de ficheiros attachados */
+File saved
+Datei wurde gespeichert
+Fajl je sacuvan
+Plik zapisany
+Ficheiro guardado
+Filen sparad
+Bestand bewaard
+
+FileDeleted
+/* T! */
+/* success message when deleting a file */
+/* Mensagem de sucesso quando se apaga um ficheiro */
+File deleted
+Datei wurde gelöscht
+Fajl je obrisan
+Plik usunięty
+Ficheiro apagado
+Filen raderad
+Bestand verwijderd
+
+SendFileButton
+/* T! */
+/* title of button for starting the upload in Attachment Element editor window */
+/* Titulo do butão para inicio do envio de ficheiro no janela de edição de ficheiros attachados */
+Send File
+Datei senden
+Poslati fajl
+Wyślij plik
+Enviar ficheiro
+Skicka fil
+Verstuur bestand
+
+DeleteFileButton
+/* T! */
+/* title of button for deleting the file in Attachment Element editor window */
+/* Titulo do butão para apagar um ficheiro na janela de edição dos ficheiros attachados */
+Delete File
+Datei löschen
+Obrisi fajl
+Usuń plik
+Apagar ficheiro
+Radera fil
+Verwijder bestand
+
+DeleteFileQuestion
+/* T! */
+/* confirmation for file deletion */
+/* Confirmação para apagar um ficheiro */
+Really delete this file?
+Diese Datei wirklich loeschen?
+Zaista obrisati fajl?
+Czy na pewno usunąć ten plik?
+Pretende mesmo apagar este ficheiro ?
+Radera filen?
+Bestand echt verwijderen?
+
+AttachmentFile
+/* T! */
+/* form field caption for the file to be uploaded */
+/* Campo para o ficheiro a ser enviado (uploaded) */
+File
+Datei
+Fajl
+Plik
+Ficheiro
+Fil
+Bestand
+
+DownloadHint
+/* T! */
+/* tool tip displayed when hovering over the download link of an Attachment Element */
+/* Dica para quando se move a seta sobre o link de descarregar de um elemento attachado */
+Download file
+Datei herunterladen
+Skidanje fajla
+Pobierz plik
+Descarregue o ficheiro
+Ladda ned fil
+Download bestand
+
+SecWarning
+/* T! */
+/* Security warning when file upload is used to upload .php scripts */
+The Content Management System has found a severe security problem in this web site! Please contact the person who designed this web site immediately!
+Das Content Management System hat ein gravierendes Sicherheitsproblem in dieser Web-Site entdeckt! Bitte kontaktieren Sie umgehend die Person, die diese Web-Site erstellt hat!
+The Content Management System has found a severe security problem in this web site! Please contact the person who designed this web site immediately!
+The Content Management System has found a severe security problem in this web site! Please contact the person who designed this web site immediately!
+The Content Management System has found a severe security problem in this web site! Please contact the person who designed this web site immediately!
+The Content Management System has found a severe security problem in this web site! Please contact the person who designed this web site immediately!
+The Content Management System has found a severe security problem in this web site! Please contact the person who designed this web site immediately!
+
+AudioEditorTitle
+/* T! */
+/* window title for Audio Element editor window */
+/* Titulo da janela de edição de um elemento audio */
+/* missing translations: portuguese */
+MP3 File
+MP3-Datei
+MP3-fajl
+Plik MP3
+MP3 File
+MP3-fil
+MP3 bestand
+
+AudioPlayHint
+/* T! */
+/* tool tip displayed when hovering over the download link of an Audio Element */
+/* missing translations: portuguese */
+Play file
+Datei abspielen
+Reprodukuj fajl
+Otwórz Plik
+Play file
+Spela filen
+Afspelen
+
+MP3PlayerWindowTitle
+/* T! */
+/* window title for Audio Element playback window */
+MP3 Player
+MP3 Datei abspielen
+reprodukovati MP3-fajl
+MP3 Player
+Audio MP3
+MP3-spelare
+MP3 speler
+
+FileUploadErrorSize
+/* T! */
+/* error message displayed when an uploaded file is too large */
+/* Mensagem de erro quando o ficheiro enviado é demasiado grande */
+The file is too big
+Die Datei ist zu groß
+Fajl je preveliki
+Ten plik jest zbyt duży
+Ficheiro enviado é muito grande
+Filen är för stor
+Het bestand is te groot
+
+FileUploadErrorInterrupted
+/* T! */
+/* error message displayed when an upload was interrupted */
+/* Mensagem de erro quando o envio de um ficheiro é interrompido */
+The file transfer was interrupted
+Das Hinaufladen wurde unterbrochen
+Postavljanje je prekinuto
+Przesyłanie pliku zostało przerwane
+Envio do fiheiro foi interrompido
+Filöverföringen avbröts
+De bestandsoverdracht is onderbroken
+
+FileUploadErrorNoFile
+/* T! */
+/* error message displayed when no file was given during a file upload */
+/* Mensagem de erro quando nenhum ficheiro foi selecionado para ser enviado */
+No file given
+Es wurde keine Datei angegeben
+Fajl nije upisan
+Nie wskazano pliku
+Nenhum ficheiro foi selecionado
+Ingen fil angiven
+Geen bestand geselecteerd
+
+FileUploadErrorUnknown
+/* T! */
+/* error message displayed when an unknown error occured during a file upload */
+/* Mensagem de erro quando um erro não identificado aconteçeu aquando do envio (upload) */
+Error on file upload
+Fehler beim übertragen der Datei
+Greska pri prenosu fajla
+Nieznany błąd przesyłania pliku
+Erro não identificado no envio
+Fel på uppladdningen
+Fout tijdens bestandsoverdracht
+
+MenuEditorTitle
+/* T! */
+/* window title for Menu Element editor window */
+/* Titulo da janela no editor de um elemento do Menu */
+Menu
+Menü
+Meni
+Menu
+Menu
+Meny
+Menu
+
+MenuSaved
+/* T! */
+/* success message for Menu Element editor window */
+/* Mensagem de sucesso para a janela de edição de elemento do Menu */
+Menu saved
+Menü wurde gespeichert
+Meni je sacuvan
+Menu zapisane
+Menu guardado
+Menyn sparad
+Menu bewaard
+
+MenuDelConfirmPre
+/* T! */
+/* first part of confirmation question when deleting a menu item */
+/* Primeira parte da confirmação quando se apaga um item de um menu */
+Really remove item
+Eintrag
+Upis
+Na pewno usunąć
+Confirma que é mesmo para remover o item
+Radera objektet?
+Onderdeel echt verwijderen
+
+MenuDelConfirmPost
+/* T! */
+/* last part of confirmation question when deleting a menu item */
+/* full questions would then be: "Really remove item xxxx from menu?"
+/* Ultima parte da confirmação quando se apaga um item de um menu */
+/* Pergunta completa: "Remover item xxxx do menu?"
+from menu?
+wirklich entfernen?
+zaista izbaciti?
+z menu?
+do menu?
+från menyn
+uit menu?
+
+MenuUpButtonTitle
+/* T! */
+/* title of button to move a menu item up */
+/* Titulo do butão para mover um item para cima */
+Up
+hinauf
+na gore
+Do góry
+Para cima
+Upp
+Omhoog
+
+MenuDownButtonTitle
+/* T! */
+/* title of button to move a menu item down */
+/* Titulo do butão para mover um item para baixo */
+Down
+hinunter
+na dole
+W dół
+para baixo
+Ned
+Omlaag
+
+MenuAddButtonTitle
+/* T! */
+/* title of button to add a menu item */
+/* Titulo do butão para adicionar um item a um menu */
+Add
+hinzufügen
+dodaj
+dodaj
+Adicionar
+Lägg till
+Voeg toe
+
+MenuChangeButtonTitle
+/* T! */
+/* title of button to change a menu item */
+/* Titulo do butão para alterar um item do menu */
+Change
+ändern
+promeni
+Zmień
+Alterar
+Ändra
+Wijzig
+
+MenuRemoveButtonTitle
+/* T! */
+/* title of button to delete a menu item */
+/* Titulo do butão para apagar um item do menu */
+Remove
+entfernen
+izbaci
+Usuń
+Apagar
+Radera
+Verwijder
+
+LoopAddButton
+/* T! */
+/* title of button to add a Loop Element block */
+/* Titulo do butão para adicionar um bloco Loop Element */
+Add Element
+Eintrag hinzufügen
+dodaj upis
+Dodaj Element
+Adicionar elemento
+Lägg till avsnitt
+Voeg element toe
+
+LoopRemoveButton
+/* T! */
+/* title of button to remove Loop Element block */
+/* Titulo do butão para dletar um bloco Loop Element */
+Remove Element
+Eintrag löschen
+obrisi upis
+Usuń Element
+Apagar elemento
+Radera avsnitt
+Verwijder element
+
+LoopUpButton
+/* T! */
+/* title of button to move a Loop Element block up */
+/* Titulo de butão para mover um bloco Loop Element para cima */
+Move Element Up
+Eintrag nach oben verschieben
+pomeri upis na gore
+Przesuń element do góry
+Mover elemento para cima
+Flytta upp avsnittet
+Element omhoog
+
+LoopDownButton
+/* T! */
+/* title of button to move a Loop Element block down */
+/* Titulo de butão para mover um bloco Loop Element para baixo */
+Move Element Down
+Eintrag nach unten verschieben
+pomeri upis na dole
+Przesuń element w dół
+Mover elemento para baixo
+Flytta ned avsnittet
+Element omlaag
+
+LoopRemoveConfirm
+/* T! */
+/* confirmation question when deleting a Loop Element block */
+/* Pergunta de confirmação quando se apaga um bloco Loop Element */
+Really remove this element?
+Diesen Eintrag wirklich löschen?
+Zaista obrisati ovaj upis?
+Na pewno usunąć ten element?
+Deletar mesmo este elemento ?
+Radera avsnittet?
+Element echt verwijderen?
+
+GalleryOpenDetail
+/* T! */
+/* tool tip when hovering over a gallery thumbnail */
+/* Dica para quando se passa com o rato numa galeria thumbnail */
+Zoom
+Größere Ansicht öffnen
+Zumiranje
+Powiększ
+Zoom
+Zooma
+Zoom
+
+GalleryDetailTitle
+/* T! */
+/* title of gallery detail window */
+/* Titulo da janela de detalhes de um galeria de imagens */
+Photo
+Foto
+Foto
+Fotografia
+Foto
+Foto
+Foto
+
+GalleryCloseWindow
+/* T! */
+/* title of button for closing the gallery detail window */
+/* Titulo do butão para fecho da janela de detalhes de um galeria de imagens */
+Close Window
+Fenster schließen
+Zatvori prozor
+Zamknij okno
+Fechar janela
+Stäng fönster
+Sluit venster
+
+GalleryAddButton
+/* T! */
+/* title of button for adding an image for the Gallery Element */
+/* Titulo do butão para adicionar uma imagem á galeria de imagens */
+Add Image
+Bild hinzufügen
+Dodaj sliku
+Dodaj obrazek
+Adicionar imagem
+Lägg till bild
+Voeg afbeelding toe
+
+GalleryRemoveButton
+/* T! */
+/* title of button for deleting an image for the Gallery Element */
+/* Titulo do butão para apagar uma imagem á galeria de imagens */
+Remove Image
+Bild löschen
+Obrisi sliku
+Usuń obrazek
+Deletar imagem
+Ta bort bild
+Verwijder afbeelding
+
+GalleryUpButton
+/* T! */
+/* title of button for the Gallery Element for moving an image up */
+/* Titulo do butão para mover para cima uma imagem da galeria de imagens */
+Move Image Backward
+Bild zum Anfang verschieben
+Pomeri sliku prema pocetku
+Przesuń obrazek z powrotem
+Mover imagem para cima
+Flytta bild bakåt
+Plaats afbeelding naar achteren
+
+GalleryDownButton
+/* T! */
+/* title of button for the Gallery Element for moving an image down */
+/* Titulo do butão para mover para baixo uma imagem da galeria de imagens */
+Move Image Forward
+Bild zum Ende verschieben
+Pomeri sliku prema kraju
+Przesuń obrazek do przodu
+Mover imagem para baixo
+Flytta bild framåt
+Plaats afbeelding naar voren
+
+GalleryRemoveConfirm
+/* T! */
+/* confirmation question for the Gallery Element when deleting an image */
+/* Pergunta de confirmação para um elemento da galeria quando se apaga uma imagem */
+Really remove this image?
+Dieses Bild wirklich löschen?
+Zaista obrisati ovu sliku?
+Na pewno usunąć ten obrazek?
+Apagar mesmo esta imagem?
+Radera bilden?
+Afbeelding echt verwijderen?
+
+GalleryEditorTitle
+/* T! */
+/* window title for Gallery Element editor window */
+/* Titulo da janela de edição da Galeria */
+Image
+Foto
+Slika
+Obrazek
+Imagem
+Bild
+Afbeelding
+
+GalleryFile
+/* T! */
+/* form field caption for the image file to be uploaded */
+/* Campo para o nome do ficheiro de imagem que será enviado (upload) */
+Image file
+Fotodatei
+Graficki fajl
+Plik obrazka
+Ficheiro de imagem
+Bildfil
+Afbeelding
+
+GalleryText
+/* T! */
+/* form field caption for the image description text, Gallery Element */
+/* Campo para a descrição de texto da imagem */
+Description
+Bildtext
+Opis slike
+Opis
+Descrição
+Beskrivning
+Beschrijving
+
+GalleryNewFoto
+/* T! */
+/* title of button for Gallery Element to create a new entry in the gallery */
+/* Titulo do butão para adicionar uma nova entrada na Galeria */
+New Photo
+Neues Foto
+Nova slika
+Nowa fotografia
+Nova imagem
+Nytt foto
+Nieuwe foto
+
+GalleryNoImage
+/* T! */
+/* placeholder text for Gallery Element when now image is present for an entry */
+/* Texto para a Galeria quando não existe uma imagem para uma entrada */
+...no image...
+...kein Foto...
+...nema slike...
+...brak obrazka...
+...nenhuma imagem...
+...ingen bild...
+...geen afbeelding...
+
+LogonButton
+/* T! */
+/* tool tip for the WebYep Logon Button, when not logged in */
+/* Dica para o butão de login WebYep quando o utilizador não está logged in */
+WebYep Logon
+WebYep Anmeldung
+WebYep prijava
+Logowanie WebYep
+WebYep Logon
+WebYep inloggning
+WebYep login
+
+LogoffButton
+/* T! */
+/* tool tip for the WebYep Logon Button, when logged in */
+/* Dica para o butão de login WebYep quando o utilizador está logged in */
+Logout
+Abmelden
+Odjava
+Wyloguj
+Logout
+Logga ut
+Log uit
+
+LogonURL
+webyep-logon-en.php
+webyep-logon-de.php
+webyep-logon-de.php
+webyep-logon-pl.php
+webyep-logon-en.php
+webyep-logon-sv.php
+webyep-logon-en.php
+
+HelpButton
+/* T! */
+/* tool tip for the help icon */
+/* Dica para o icon de ajuda (Help) */
+Help
+Hilfe
+Pomoc
+Pomoc
+Help
+Hjälp
+Help
+
+HelpFolder
+help/english
+help/deutsch
+help/srpski
+help/polski
+help/portuguese
+help/swedish
+help/dutch
+
+AtDate
+/* T! */
+/* for use in date expressions, like "Created on Sat, Jun 7th" */
+/* Para uso em expressões de datas, como "Criado no Sábado, Junho 7" */
+on
+am
+u
+dnia
+no
+den
+op
+
+AtTime
+/* T! */
+/* for use in time expressions, like "Created at 10:34 pm" */
+/* Para uso em expressões de tempo, como "Criado ás 10:34" */
+at
+um
+u
+o
+ás
+kl.
+om
+
+ClientIP
+/* T! */
+/* caption of the author's IP address for the Guestbook Element */
+/* Endereço IP do autor para o Guestbook */
+Sender IP Address
+IP-Adresse des Senders
+IP-adresa posiljaoca
+Adres IP autora
+Endereço IP de quem envia
+Avsändarens IP-adress
+IP adres afzender
+
+unknown
+/* T! */
+/* used as the value for the author's IP address, if the address is not known */
+/* Usado para o endereço IP de quem envia, caso esse endereço IP seja desconhecido */
+unknown
+unbekannt
+nepoznata
+nieznany
+Endereço IP desconhecido
+okänd
+onbekend
+
+IPIsBlocked
+/* T! */
+/* error message displayed by the Guestbook Element, if the author's IP address is blocked */
+/* Mensagem de erro no Guestbook caso o endereço IP de quem envia esteja bloqueado */
+Message could not be added: Your IP address is blocked.
+Nachricht konnte nicht angenommen werden: Ihre IP-Adresse ist gesperrt.
+Poruka nije mogla da bude primljena: Vasa IP-adresa je blokirana.
+Adres IP jest zablokowany
+Mensagem não pode ser adicionada: O seu endereço IP está bloqueado.
+Din IP-adress är blockerad.
+Bericht kan niet worden toegevoegd: uw IP adres is geblokkeerd
+
+GuestbookUnBlockConfirm
+/* T! */
+/* confirmation question when re-enabling a blocked IP address in the Guestbook Element */
+/* Pergunta de confirmação quando se dá novamente autorização a um endereço IP que está bloqueado no Guestbook */
+Really reenable this IP address?
+Diese IP-Adresse wirklich wieder freigeben?
+Zaista deblokirati ovu adresu?
+Czy na pewno udostępnić ten adres IP?
+Autoriza novamente o acesso a este endereço IP ?
+Ta bort blockering för denna IP-adress?
+Blokkering van dit IP-adres echt opheffen?
+
+GuestbookBlockConfirm
+/* T! */
+/* confirmation question when blocking an IP address in the Guestbook Element */
+/* Pergunta de confirmação quando se bloqueia o acesso a um determinado endereço IP no Guestbook */
+Really block this IP address?
+Diese IP-Adresse wirklich sperren?
+Zaista blokirati ovu adresu?
+Czy na pewno zablokować ten adres IP?
+Confirma o bloqueio a este endereço IP?
+Blockera denna IP-adress?
+Dit IP-adres echt blokkeren?
+
+GuestbookRemoveConfirm
+/* T! */
+/* confirmation question when deleting an entry in the Guestbook Element */
+/* Pergunta de confirmação quando se apaga uma entrada no Guestbook */
+Really remove this entry?
+Diesen Eintrag wirklich löschen?
+Zaista obrisati ovaj upis?
+Czy na pewno usunąć ten wpis?
+Pretende remover esta entrada?
+Ta bort detta inlägg?
+Deze bijdrage echt verwijderen?
+
+GuestbookRemoveButton
+/* T! */
+/* title of button for deleting an entry in the Guestbook Element */
+/* Titulo do butão para apagar uma entrada no Guestbook */
+Remove Entry
+Eintrag löschen
+Ubrisi upis
+Usuń wpis
+Apagar entrada
+Ta bort inlägg
+Bijdrage verwijderen
+
+GuestbookBlockButton
+/* T! */
+/* title of button for blocking an IP address in the Guestbook Element */
+/* Titulo de butão para bloquear um endereço IP no Guestbook */
+Block this IP
+Diese IP-Adresse sperren
+Blokiraj IP-Adresu
+Zablokuj ten adres IP
+Bloqueie este IP
+Blockera IP-adressen
+Blokkeer dit IP-adres
+
+GuestbookUnBlockButton
+/* T! */
+/* title of button for re-enabling an IP address in the Guestbook Element */
+/* Titulo do butão para re-permitir o acesso de um endereço IP bloqueado no Guestbook */
+Reenable this IP
+Diese IP-Adresse freigeben
+Deblokiraj IP-adresu
+Przywróć ten adres IP
+Re-enable este IP
+Häv blockering av IP-adressen
+Hef blokkering van dit IP-adres op
+
+BlockedIPs
+/* T! */
+/* heading for list of blocked IP addresses in the Guestbook Element */
+/* Cabeçalho da lista de endereços IP bloqueados no Guestbook */
+Blocked IPs
+Gesperrte IP-Adressen
+Blokirane IP-adrese
+Zablokowane adresy IP
+IPs Bloqueados
+Blockerade IP-adresser
+Geblokkeerde IP-adressen
+
+GuestbookMailSubject
+/* T! */
+/* subject for mails generated by the Guestbook Element */
+/* Campo Assunto para os mails gerados pelo Guestbook */
+New entry in your guestbook at %s
+Neuer Eintrag in Ihrem Gaestebuch auf %s
+Novi upis u Vasoj knjizi gostiju na %s
+Nowy wpis w księdze gości %s
+Nova entrada no Guestbook %s
+Nytt inlägg i din gästbok %s
+Nieuwe bijdrage in uw gastenboek %s
+
+GuestbookMailText
+/* T! */
+/* content for mails generated by the Guestbook Element */
+/* Campo de Conteudo para mails gerados pelo Guestbook */
+/* leave formatting characters "\n" and "%s" intact!!! /*
+Name: %s\nEMail: %s\nMessage:\n%s
+Name: %s\nE-Mail: %s\nNachricht:\n%s
+Ime: %s\nE-Mail: %s\nPoruka:\n%s
+Nazwa: %s\nEMail: %s\nWiadomość:\n%s
+Nome: %s\nEMail: %s\nMensagem:\n%s
+Namn: %s\nE-post: %s\nMeddelande:\n%s
+Naam: %s\nE-mail: %s\nBericht:\n%s
+

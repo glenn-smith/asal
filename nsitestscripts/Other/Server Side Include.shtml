@@ -1,0 +1,17 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<center> If the rest of the page is blank then SSI is not working:<br><br><br>
+<table>
+<!--#include file="test.shtm" --> 
+</table></center>
+</body>
+
+</html>

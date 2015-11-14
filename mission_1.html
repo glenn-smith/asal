@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/asal.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>2 Column Elastic, Left Sidebar, Header and Footer</title>
+<!-- InstanceEndEditable -->
+<style type="text/css" media="all">
+<!--
+/* This rule resets a core set of elements so that they will appear consistent across browsers. Without this rule, content styled with an h1 tag, for example, would appear in different places in Firefox and Internet Explorer because each browser has a different top margin default value. By resetting these values to 0, the elements will initially be rendered in an identical fashion and their properties can be easily defined by the designer in any subsequent rule. */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+}
+/* The body is the outermost layout component and contains the visible page content. Setting properties for the body element will help to create consistent styling of the page content and more manageable CSS. Besides using the body element to set global properties, it is common to use the body element to set the background color of the page and create a centered container for the page content to display. */
+body {
+  background-color: #46383a;
+  color: #2e2d2c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 14px;
+  margin: 0 0 0 0; /* Sets the margin properties for an element using shorthand notation (top, right, bottom, left) */
+  padding: 0 0 0 0; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+  text-align: center; /* Centers the page content container in IE 5 browsers. */
+}
+/* Commonly used to style page titles. */
+h1 {
+  color: #b54f37;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+}
+/* Commonly used to style section titles. */
+h2 {
+  color: #b54f37;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+}
+.photo_right {
+	float: right;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	border: medium solid #000000;
+}
+/* Sets the style for unvisited links. */
+a,  a:link {
+  color: #da5242;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Sets the style for visited links. */
+a:visited {
+  color: #904841;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Sets the style for links on mouseover. */
+a:hover {
+  color: #bf1c1c;
+  text-decoration: underline;
+}
+/* Sets the style for a link that has focus. */
+a:focus {
+  color: #bf1c1c;
+}
+/* Sets the style for a link that is being activated/clicked. */
+a:active {
+  color: #702922;
+}
+/* This is a container for the page content. It is common to use the container to constrain the width of the page content and allow for browser chrome to avoid the need for horizontal scrolling. For fixed layouts you may specify a container width and use auto for the left and right margin to center the container on the page. IE 5 browser require the use of text-align: center defined by the body element to center the container. For liquid layouts you may simply set the left and right margins to center the container on the page. */
+#outerWrapper {
+	background-color: #fff;
+	margin: 0 auto 0 auto; /* Sets the margin properties for an element using shorthand notation (top, right, bottom, left) */
+	max-width: 765px;
+	text-align: left; /* Redefines the text alignment defined by the body element. */
+	width: 70em;
+}
+#outerWrapper #header {
+	background-color: #cda98b;
+	border-bottom: solid 1px #8b675a; /* Sets the bottom border properties for an element using shorthand notation */
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 5px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+}
+#outerWrapper #contentWrapper {
+  overflow: hidden;
+}
+#outerWrapper #contentWrapper #leftColumn1 {
+  background-color: #f9f1e1;
+  border-right: solid 1px #cda98b; /* Sets the right border properties for an element using shorthand notation */
+  float: left;
+  padding: 10px 10px 10px 10px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+  width: 14em;
+}
+/* Contains the main page content. When using a mutliple column layout the margins will be set to account for the floated columns' width, margins, and padding. */
+#outerWrapper #contentWrapper #content {
+  margin: 0 0 0 16em; /* Sets the margin properties for an element using shorthand notation (top, right, bottom, left) */
+  padding: 10px 10px 10px 10px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+}
+#outerWrapper #footer {
+  background-color: #f9f1e1;
+  border-top: solid 1px #cda98b; /* Sets the top border properties for an element using shorthand notation */
+  padding: 10px 10px 10px 10px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+}
+-->
+</style>
+<style type="text/css" media="print">
+<!--
+/* It is common to set printer friendly styles such as a white background with black text. */
+body {
+  background-color: #fff;
+  background-image: none;
+  border-color: #000; /* Sets the border color properties for an element using shorthand notation */
+  color: #000;
+}
+-->
+</style>
+<!--[if IE 5]>
+<style type="text/css"> 
+/* IE 5 does not use the standard box model, so the column widths are overidden to render the page correctly. */
+#outerWrapper #contentWrapper #leftColumn1 {
+  width: 16em;
+}
+</style>
+<![endif]-->
+<!--[if IE]>
+<style type="text/css"> 
+/* The proprietary zoom property gives IE the hasLayout property which addresses several bugs. */
+#outerWrapper #contentWrapper, #outerWrapper #contentWrapper #content {
+  zoom: 1;
+}
+</style>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript" src="CSSMenuWriter/cssmw5/menu.js"></script>
+<style type="text/css" media="all">
+<!--
+@import url("CSSMenuWriter/cssmw5/menu.css");
+-->
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="all">
+@import url("../CSSMenuWriter/cssmw5/menu_ie.css");
+</style>
+<![endif]-->
+
+<title>2 Column Elastic, Left Sidebar, Header and Footer</title>
+<!-- InstanceEndEditable -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38559341-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<meta name="google-site-verification" content="GpXk9rzRDLY5IO73tpm_wkyM6UlxTWUxemYKKwQPzhY" />
+<body>
+
+<div id="outerWrapper">
+  <div id="header"><img src="images/ASAL_home_banner.gif" width="755" height="145" alt="Banner" /></div>
+
+  <div id="contentWrapper">
+    <div id="leftColumn1">
+      <h2>&nbsp;
+        <ul class="level-0" id="cssmw5">
+          <li><span><a href="index.php">Home</a></span></li>
+          <li><span><a href="mission_1.html">Mission</a></span></li>
+          <li><span><a href="donate_1.html">Donate</a></span></li>
+          <li><span><a href="dogs_1.php">Available Dogs</a></span></li>          
+          <li><span><a href="cats_1.php">Available Cats</a></span></li>          
+          <li><span><a href="adopt_1.php">How to Adopt</a></span></li>          
+          <li><span><a href="success_1.php">Success Stories</a></span></li>
+          <li><span><a href="fam_photos_1.php">Family Photos</a></span></li>
+        </ul>
+        <script type="text/javascript">if(window.attachEvent) { window.attachEvent("onload", function() { cssmw5.intializeMenu('cssmw5'); }); } else if(window.addEventListener) { window.addEventListener("load", function() { cssmw5.intializeMenu('cssmw5'); }, true); }</script>
+      </h2>
+    </div>
+
+    <div id="content"><!-- InstanceBeginEditable name="EditRegion3" -->
+      <h1>Our Mission</h1>
+      <hr />
+      <p><span style=
+        "font-size:13px;">The Afghan Stray Animal League is a
+        private non-profit organization in the U.S.<img src="images/tig_vet_cat.gif" width="144" height="144" class="photo_right" /> that operates
+        and supports a shelter and low-cost veterinary clinic for
+        homeless, abandoned, sick or injured small animals in
+        Afghanistan. The shelter is located in a refurbished house
+        in Kabul, the Afghan capital, which has a large population
+        of neglected street dogs and cats as well as thousands of
+        backyard animals such as goats and donkeys whose owners
+        cannot afford treatment for them.</span><span style=
+        "font-size:6px;"><br />
+&nbsp; <br />
+        </span><span style="font-size:13px;">The shelter has
+        been open full-time since the fall of 2004. It can
+        comfortably house about 20 dogs and about 30 cats, and we
+        have helped more than 400 animals so far. The shelter has a
+        full-time Afghan staff including a veterinarian, an
+        assistant veterinarian and manager. It has a fully stocked
+        pharmacy and a small surgical clinic. The shelter staff
+        accepts any animal that is brought to the door for help,
+        including treatment of injuries, vaccinations, deworming,
+        bathing and treatment of skin diseases. We have a car and
+        driver to pick up any small animal that is injured, sick or
+        found by someone who cannot bring it to the
+        shelter.</span><span style="font-size:6px;"><br />
+&nbsp; <br />
+        </span><span style="font-size:13px;">One of our major
+        goals is to reduce the population of unwanted street
+        animals. We offer both neutering and spaying of cats and
+        dogs, in consultation with international veterinarians who
+        visit the shelter or work with the national university
+        veterinary school. No fees are charged for any <span style="font-size:6px; float: left; padding-top: 5px; padding-right: 5px;"><img src="images/tig_vets_dog.gif" width="144" height="108" border="2" class="photo_left" /></span>services,
+        although any foreign pet owners who come for vet care are
+        asked for donations to cover the cost of vaccines and
+        medicines. Our policy on euthanasia is that this should be
+        used only as a last resort in the case of severe trauma or
+        untreatable illness.</span><span style=
+        "font-size:6px;"><br />
+        </span><span style=
+        "font-size:6px;">&nbsp; <br />
+        </span><span style="font-size:13px;">Our primary
+        mission is to care for needy small animals, restore them to
+        health and find them loving homes. Most of those who adopt
+        our animals are foreigners, and we are able to arrange to
+        ship their rescued pets home if needed. We are also working
+        to foster and encourage a culture of companion animal
+        ownership in Afghanistan. The country has been devastated
+        by war and poverty, and there is widespread neglect, abuse
+        and fear of animals. We provide free dog houses, food,
+        vaccines and other supplies to any Afghan who adopts a pet,
+        and we conduct home visits to ensure the animal is being
+        well treated. We also offer free talks at&nbsp; local
+        non-profit children’s programs about the humane treatment
+      of animals.</span></p>
+    <!-- InstanceEndEditable --></div>
+  </div>
+  <div id="footer">
+    <p align="center">&copy;2009-2013 Afghan Stray Animal League<br />
+      Website by JLS Consulting, Inc.
+    </p>
+  </div>
+</div>
+
+</body>
+<!-- InstanceEnd --></html>

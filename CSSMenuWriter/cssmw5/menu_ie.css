@@ -1,0 +1,147 @@
+ul#cssmw5 {
+  cursor: default;
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 0;
+}
+ul#cssmw5 ul {
+  cursor: default;
+  font-size: 0;
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+ul#cssmw5 li {
+  zoom:1;
+  background-image: none;
+  border-bottom: solid 1px #CDA98B;
+  margin-bottom: -1px;
+  padding: 0 0 0 0;
+  position: relative;
+  white-space: nowrap;
+}
+ul#cssmw5 li ul {
+  display: none;
+  top: 0;
+}
+ul#cssmw5 li.hover ul {
+  display: block;
+  position: absolute;
+}
+ul#cssmw5 li {
+  background-image: none;
+  border-bottom: solid 1px #CDA98B;
+  margin-bottom: -1px;
+}
+ul#cssmw5 li span {
+  background-image: none;
+  display: block;
+}
+ul#cssmw5 li span a {
+  background-color: #F4E1C9;
+  background-image: url("../cssmw5_images/arrow.gif");
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  border-bottom: dotted 1px #CDA98B;
+  color: #46383A;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 0 0 0;
+  padding: 5px 10px 5px 5px;
+  text-decoration: none;
+  width: 150px;
+}
+ul#cssmw5 li * a {
+  height: auto;
+  width: auto;
+}
+ul#cssmw5 li span * a {
+  height: auto;
+  width: auto;
+}
+ul#cssmw5 li.hover span {
+  display: block;
+}
+ul#cssmw5 li.hover span a {
+  background-color: #904841;
+  border-bottom: dotted 1px #CDA98B;
+  color: #F9F1E1;
+  text-decoration: none;
+}
+ul#cssmw5 ul.level-1 {
+  left: 165px;
+}
+ul#cssmw5 ul.level-1 li {
+  background-image: none;
+  border-bottom: solid 1px #CDA98B;
+  margin-bottom: -1px;
+}
+ul#cssmw5 ul.level-1 li a {
+  background-color: #904841;
+  background-image: url("../cssmw5_images/arrow.gif");
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  border-bottom: dotted 1px #CDA98B;
+  color: #F9F1E1;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 0 0 0;
+  padding: 5px 10px 5px 5px;
+  text-decoration: none;
+  width: 150px;
+}
+ul#cssmw5 ul.level-1 li * a {
+  height: auto;
+  width: auto;
+}
+ul#cssmw5 ul.level-1 li span * a {
+  height: auto;
+  width: auto;
+}
+ul#cssmw5 ul.level-1 li.hover a {
+  background-color: #431E18;
+  border-bottom: dotted 1px #CDA98B;
+  color: #F9F1E1;
+  text-decoration: none;
+}
+ul#cssmw5 ul.level-2 {
+  left: 165px;
+}
+ul#cssmw5 ul.level-2 li {
+  background-image: none;
+  border-bottom: solid 1px #CDA98B;
+  margin-bottom: -1px;
+}
+ul#cssmw5 ul.level-1 li ul.level-2 li a {
+  background-color: #431E18;
+  background-image: url("../cssmw5_images/arrow.gif");
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  border-bottom: dotted 1px #CDA98B;
+  color: #F9F1E1;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 0 0 0;
+  padding: 5px 10px 5px 5px;
+  text-decoration: none;
+  width: 150px;
+}
+ul#cssmw5 ul.level-1 ul.level-2 li.hover a {
+  background-color: #702922;
+  border-bottom: dotted 1px #CDA98B;
+  color: #F9F1E1;
+  text-decoration: none;
+}

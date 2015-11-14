@@ -1,0 +1,1055 @@
+/* @group General Styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font: 0.8em Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+p { 
+}
+
+b, strong {
+	font-weight: normal;
+}
+
+#sidebarContainer .sidebar b, #sidebarContainer .sidebar strong {
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+	
+}
+
+#leftbar a:hover {
+	text-decoration: underline;
+}
+
+.left {
+	float: left;
+}
+
+a img {
+	border: none;
+}
+	
+/* @end */
+
+/* @group Layout */
+
+#container {
+	width: 848px;
+	position: absolute;
+	height: 564px;
+	top: 50%;
+	left: 50%;
+	margin-left: -424px;
+	margin-top: -282px;
+
+}
+
+
+
+#pageHeader {
+	position: relative;
+	margin-bottom: 1em;
+}
+
+#pageHeader b, #pageHeader strong {
+}
+
+#pageHeader p {
+}
+
+#pageHeader img {
+	display: inline;
+	float: left;
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#pageHeader h1 {
+	
+	margin: 0px;
+	text-align: center;
+	letter-spacing: 1px;
+	position: relative;
+	top: 0px;
+	padding: 17px 20px 5px 30px;
+	font-size: 3em;
+}
+
+
+
+#pageHeader h2 {
+	margin: 0px;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 30px;
+	position: relative;
+	top: 0px;
+	font-size: 1.1em;
+}
+
+#leftbar {
+	width: 200px;
+	text-align: left;
+	position: absolute;
+	left: 0;
+	overflow: auto;
+	top: 0;
+	bottom: 0px;
+	height: 564px;
+}
+
+#background_sidebar_right {
+	width: 200px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 564px;
+}
+
+#background_sidebar_left {
+	width: 200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	height: 564px;
+}
+
+#background_content {
+	width: 448px;
+	position: absolute;
+	left: 200px;
+	right: 200px;
+	top: 0;
+	bottom: 0;
+	height: 564px;
+}
+
+#contentContainer {
+	text-align: left;
+	overflow: auto;
+	position: absolute;
+	right: 200px;
+	margin-right: 0px;
+	left: 200px;
+	top: 0;
+	bottom: 0px;
+	height: 100%;
+	width: 448px;
+}
+
+/** html #contentContainer {
+	height: 75%;
+	
+}*/
+
+#contentContainer #content {
+	text-align: left;
+	background: transparent;
+	padding: 20px;
+}
+
+
+#sidebarContainer {
+	width: 200px;
+	text-align: left;
+	height: 564px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0px;
+	overflow: auto;
+}
+
+
+.sidebar {
+	padding: 10px;
+	font-size: 0.8em;
+}
+
+#leftbar .sideHeader {
+	text-align: left;
+	padding: 20px 10px 5px 10px;
+	font-size: 1.3em;
+}
+
+.sidebar a {
+}
+
+.sidebar a:hover {
+}
+
+.sidebar h1 {
+	font-size: 1.2em;
+	margin: 5px 0;
+	padding: 0;
+}
+
+#contentContainer #content ul li {
+	margin-bottom: 0.8em;
+}
+
+#contentContainer #content ol li {
+	margin-bottom: 0.8em;
+}
+
+#footer {
+	position: absolute;
+	margin: 0px auto; /* Right And Left Margin Widths To Auto */
+	text-align: center; /* Hack To Keep IE5 Windows Happy */
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 32px;
+	padding-top: 8px;
+}
+
+
+#footer p {
+	margin: 0px;
+	padding-top: 0.4em;
+}
+
+#footer a {
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+	
+/* @end */
+
+/* @group Bread-crumb */
+
+#breadcrumbcontainer {
+	text-align: right;
+	padding: 0px 4px 0 0;
+	font-size: 0.8em;
+}
+
+#breadcrumbcontainer ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+#breadcrumbcontainer li {
+	padding: 0px;
+	display: inline;
+}
+
+#breadcrumbcontainer a {
+	display: inline;
+}
+
+#breadcrumbcontainer a:hover {
+	display: inline;
+}
+	
+/* @end */
+
+/* @group Toolbar */
+
+/* Toolbar Styles */
+
+#navcontainer {
+	padding-top: 0px;
+	background: transparent;
+	margin-top: 0px;
+	text-align: right;
+	padding: 1em;
+	line-height: 1.2;
+	position: relative;
+	right: 0;
+}
+
+#navcontainer a {
+	display: block;
+	text-decoration: none;
+	padding: 0px 8px;
+}
+
+#navcontainer a:hover {
+	border-right-width: 4px;
+	border-right-style: solid;
+	padding-right: 4px;
+}
+
+
+#navcontainer .currentAncenstor, #navcontainer #current {
+	border-right-width: 4px;
+	border-right-style: solid;
+	padding-right: 4px;
+}
+
+
+#navcontainer ul ul li a#current {
+}
+
+/* Parent - Level 0 */
+
+#navcontainer ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+
+#navcontainer ul li {
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+
+#navcontainer li a#current {
+
+}
+
+/* Child - Level 1 */
+
+#navcontainer ul ul {
+	padding: 0px;
+	margin: 0px;
+	margin: 0.3em 4px 0 0;
+}
+
+#navcontainer ul ul li { 
+	font-size: 0.8em;
+	line-height: 1;
+}
+
+
+
+#navcontainer ul ul a {
+	display: block;
+	text-decoration: none;
+}
+
+#navcontainer ul ul a:hover {
+}
+
+/* Child - Level 2 */
+
+#navcontainer ul ul ul {
+}
+
+#navcontainer ul ul ul li { 
+	font-size: 0.8em;
+}
+
+#navcontainer ul ul ul a {
+	display: block;
+	text-decoration: none;
+}
+
+#navcontainer ul ul ul a:hover {
+	background: transparent;
+}
+
+/* Child - Level 3 */
+
+#navcontainer ul ul ul ul {
+}
+
+#navcontainer ul ul ul ul li {
+	font-size: 0.8em;
+}
+
+#navcontainer ul ul ul ul a {
+	display: block;
+	text-decoration: none;
+}
+
+#navcontainer ul ul ul ul a:hover {
+	background: transparent;
+}
+
+/* Child - Level 4 */
+
+#navcontainer ul ul ul ul ul {
+}
+
+#navcontainer ul ul ul ul ul li { 
+}
+
+#navcontainer ul ul ul ul ul a {
+	display: block;
+	text-decoration: none;
+}
+
+#navcontainer ul ul ul ul ul a:hover {
+	background: transparent;
+}
+
+/* Child - Level 5 */
+
+#navcontainer ul ul ul ul ul ul {
+	padding: 0px;
+	margin: 0px 0px 0px 15px;
+}
+
+#navcontainer ul ul ul ul ul ul li { 
+}
+
+#navcontainer ul ul ul ul ul ul a {
+	display: block;
+	text-decoration: none;
+}
+
+#navcontainer ul ul ul ul ul ul a:hover {
+	background: transparent;
+}
+	
+/* @end */
+
+/* @group Global Classes */
+
+.clearer {
+	clear: both;
+}
+
+.standout {
+	font-style: italic;
+	padding: 10px;
+	font-size: 13px;
+	border-bottom: 1px dotted #092143;
+	border-top: 1px dotted #092143;
+}
+
+h1 {
+	margin-bottom: 0.5em;
+	padding: 0px;
+	font-size: 2.0em;
+}
+
+h2 {
+	margin-bottom: 0.1em;
+	margin-top: 0;
+	padding: 0px;
+	font-size: 1.6em;
+}
+
+h3 {
+	font-weight: normal;
+	margin-bottom: 0.2em;
+	padding-top: 0.5em;
+	font-size: 1.3em;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 0.1em;
+}
+
+h5 {
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-bottom: 0.1em;
+}
+
+.image-left {
+	float: left;
+	margin: 3px 1em 1em 0;
+	padding: 3px;
+	position: relative;
+}
+
+
+.image-right {
+	float: right;
+	margin: 3px 0 1em 1em;
+	padding: 3px;
+	position: relative;
+}
+
+
+.imageStyle {
+}
+	
+/* @end */
+
+/* @group Photo Album */
+
+/* @group Index Page (Thumbnail view) */
+
+.album-title {
+	padding: 5px;
+	font-size: 2.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.album-description {
+	padding: 5px;
+	font-size: 1.4em;
+}
+.album-description {
+	margin-bottom: -20px;
+	font-size: 1.2em;
+}
+
+.album-wrapper {
+	display: block;
+	width: 99%;
+	position: relative;
+}
+
+.thumbnail-wrap {
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding-top: 60px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.thumbnail-frame {
+	position: absolute;
+  left: 0;
+  padding: 5px;
+}
+
+.thumbnail-frame img {
+    margin: auto;
+    border: none;
+    display: block;
+}
+
+.thumbnail-caption {
+	margin: 5px -5px;
+	padding: 0 0 20px 0;
+	display: block;
+	/*height: 40px;*/
+}
+
+.thumbnail-caption {
+	font-size: 10px;
+}
+		
+/* @end */
+
+/* @group Single Page (Photo view) */
+
+.photo-background {
+	margin: 0;
+	text-align: center;
+}
+
+.photo-navigation {
+	padding: 20px 40px 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.photo-links {
+}
+
+.photo-navigation a:link, .photo-navigation a:visited {
+}
+
+.photo-navigation a:hover {
+}
+
+.photo-frame{
+	padding: 2px;
+}
+
+.photo-title {
+	font-size: 2.5em;
+	margin: 0 0 5px;
+}
+
+.photo-caption {
+	font-size: 1.1em;
+	margin: 0;
+}
+
+/* @end */
+	
+/* @end */
+
+/* @group Quicktime Page */
+
+.movie-description {
+
+}
+	
+/* @end */
+
+/* @group Quicktime Album */
+
+/* @group Index Page (Movie Thumbnail view) */
+
+.movie-page-title {
+	font-size: 1.9em;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.movie-page-description {
+	margin-bottom: 8px;
+}
+
+.movie-thumbnail-frame {
+	position: relative;
+	width: 132px;
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.movie-thumbnail-frame:hover {
+}
+
+
+.movie-thumbnail-caption {
+}
+	
+/* @end */
+
+/* @group Single Page (Movie View) */
+
+.movie-background {
+	text-align: center;
+}
+
+.movie-title {
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.movie-frame {
+	margin-top: 10px;
+}
+	
+/* @end */
+
+
+/* @end */
+
+/* @group Contact Form */
+.message-text { 
+} 
+
+.required-text {
+} 
+
+.form-input-field {
+} 
+
+.form-input-button { 
+} 
+/* @end */
+
+/* @group New Blog Styles */
+
+p.blog-entry-tags {
+}
+/* Styles blog tag links normal and visited state */
+p.blog-entry-tags a:link,
+p.blog-entry-tags a:visited {
+}
+
+/* Styles blog tag links hover state */
+p.blog-entry-tags a:hover {
+}
+
+/* Styles blog tag links active state */
+p.blog-entry-tags a:active {
+}
+
+/* @group Tag Cloud */
+ul.blog-tag-cloud {
+	margin: 20px 10px 10px;
+	padding: 0;
+	display: block;
+	list-style: none;
+	text-align: justify;
+}
+
+ul.blog-tag-cloud li {
+	display: inline;
+	padding-right: 3px;
+	
+}
+
+ul.blog-tag-cloud li a {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.blog-tag-size-1 {
+	font-size: 0.8em;
+}
+
+.blog-tag-size-2 {
+	font-size: 0.85em;
+}
+
+.blog-tag-size-3 {
+	font-size: 0.9em;
+}
+
+.blog-tag-size-4 {
+	font-size: 0.95em;
+}
+
+.blog-tag-size-5 {
+	font-size: 1.0em;
+}
+
+.blog-tag-size-6 {
+	font-size: 1.05em;
+}
+
+.blog-tag-size-7 {
+	font-size: 1.1em;
+}
+
+.blog-tag-size-8 {
+	font-size: 1.15em;
+}
+
+.blog-tag-size-9 {
+	font-size: 1.2em;
+}
+
+.blog-tag-size-10 {
+	font-size: 1.25em;
+}
+
+.blog-tag-size-11 {
+	font-size: 1.3em;
+}
+
+.blog-tag-size-12 {
+	font-size: 1.35em;
+}
+
+.blog-tag-size-13 {
+	font-size: 1.4em;
+}
+.blog-tag-size-14 {
+	font-size: 1.45em;
+}
+
+.blot-tag-size-15 {
+	font-size: 1.5em;
+}
+
+.blog-tag-size-16 {
+	font-size: 1.55em;
+}
+
+.blog-tag-size-17 {
+	font-size: 1.6em;
+}
+
+.blog-tag-size-18 {
+	font-size: 1.65em;
+}
+
+.blog-tag-size-19 {
+	font-size: 1.7em;
+}
+
+
+.blog-tag-size-20 {
+	font-size: 1.75em;
+}
+
+/* @end */
+
+
+/* Order & Un-ordered List Support
+These CSS classes style the list style type of an un-ordered list. */
+
+ul.disc { list-style-type: disc;
+}
+
+ul.circle { list-style-type: circle;
+}
+
+ul.square { list-style-type: square;
+}
+
+ol.arabic-numbers { list-style-type: decimal;
+}
+
+ol.upper-alpha { list-style-type: upper-alpha;
+}
+
+ol.lower-alpha { list-style-type: lower-alpha;
+}
+
+ol.upper-roman { list-style-type: upper-roman;
+}
+
+ol.lower-roman { list-style-type: lower-roman;
+}
+
+/* @end *//* @group EXIF data */
+/* Data wrapper */
+.exif-data {
+}
+
+/* p tag classes for all exif data */
+p.exif-version {
+}
+
+p.exif-colour-space {
+}
+
+p.exif-focal-length {
+}
+
+p.exif-dimensions {
+}
+
+p.exif-pixel-y-dimension {
+}
+
+p.exif-oecf-value {
+}
+
+p.exif-subsec-time-original {
+}
+
+p.exif-exposure-mode {
+}
+
+p.exif-pixel-x-dimension {
+}
+
+p.exif-spatial-frequency-response {
+}
+
+p.exif-scene-capture-type {
+}
+
+p.exif-subject-location {
+}
+
+p.exif-shutter-speed {
+}
+
+p.exif-datetime-original {
+}
+
+p.exif-subsec-time {
+}
+
+p.exif-compressed-bits-per-pixel {
+}
+
+p.exif-flash-energy {
+}
+
+p.exif-saturation {
+}
+
+p.exif-brightness {
+}
+
+p.exif-exposure-time {
+}
+
+p.exif-f-number {
+}
+
+p.exif-file-source {
+}
+
+p.exif-gain-control {
+}
+
+p.exif-subject-area {
+}
+
+p.exif-cfa-pattern {
+}
+
+p.exif-scene-type {
+}
+
+p.exif-white-balance {
+}
+
+p.exif-flash {
+}
+
+p.exif-exposure-index {
+}
+
+p.exif-flashpix-version {
+}
+
+p.exif-device-setting-description {
+}
+
+p.exif-focalplane-x-resolution {
+}
+
+p.exif-image-uniqueid {
+}
+
+p.exif-components-configuration {
+}
+
+p.exif-light-source {
+}
+
+p.exif-sensing-method {
+}
+
+p.exif-aperture {
+}
+
+p.exif-sharpness {
+}
+
+p.exif-exposure-program {
+}
+
+p.exif-subject-distance {
+}
+
+p.exif-subsec-time-digitized {
+}
+
+p.exif-contrast {
+}
+
+p.exif-focalplane-resolution-unit {
+}
+
+p.exif-gamma {
+}
+
+p.exif-35mm-focal-length {
+}
+
+p.exif-datetime-digitized {
+}
+
+p.exif-subject-distance-range {
+}
+
+p.exif-custom-rendered {
+}
+
+p.exif-max-aperture {
+}
+
+p.exif-sound-file {
+}
+
+p.exif-metering-mode {
+}
+
+p.exif-spectral-sensitivity {
+}
+
+p.exif-exposure-bias {
+}
+
+p.exif-focalplane-y-resolution {
+}
+
+p.exif-iso-rating {
+}
+
+p.exif-maker-note {
+}
+
+p.exif-digital-zoom-ratio {
+}
+
+p.exif-user-comment {
+}
+
+/* @end */
+
+/* @group Contact Form */
+.message-text { 
+
+}
+
+.required-text {
+} 
+
+.form-input-field {
+} 
+
+input.form-input-field {
+	display: inline;
+}
+
+textarea {
+}
+
+.form-input-button { 
+}
+
+label + br {
+	display: none;
+}
+
+input + br {
+	clear: left;
+}
+
+form {
+	
+	}
+
+label {
+	display: block;
+	width: 180px;
+	float: left;
+	padding: 2px 5px;
+	font-weight: bold;
+} 
+/* @end */
+
+#content p+h3 {
+	border-top: 1px solid #e1e1e1;
+}
+
+#logo_right, #logo_left {
+	position: relative;
+	width: 200px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.filesharing-item {
+	margin-bottom: 10px;
+	padding: 5px;
+}

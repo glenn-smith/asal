@@ -1,0 +1,146 @@
+<html>
+
+<head>
+
+
+<style>
+.para {
+  font-family: "Verdana","Arial","sans-serif";
+  font-size: 10pt;
+}
+
+a.headings:link {
+  color: #000000;
+  text-decoration:underline;
+  width:100%;
+}
+
+a.headings:visited {
+  color: #aa6611;
+  width:100%
+}
+
+a.headings:hover {
+  color: #ff9933;
+  text-decoration:none;
+  width:100%
+}
+
+a.headings:active {
+  color: #0000ff;
+  width:100%
+}
+
+a.headings {
+  background-repeat: no-repeat;
+  font-family: "Verdana","arial","sans-serif";
+  font-size: 10px;
+}
+</style>
+
+
+
+<script type="text/javascript" src="../nsitestscripts/pageOrganizer.js"></script>
+
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Network Solutions Script Tool Box</title>
+<base target="middle">
+
+</head>
+
+
+<body >
+
+ <div class="para"  id="sub1" style="display:none">
+ 
+ 	<p align="right"><font size="1">
+	
+<table border="0" width="100%" id="table1" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="100%" colspan="2">
+		<p align="center"><b><font color="#00FF00">
+		<img border="0" src="../nsitestscripts/images/studtoolicon.jpg" width="26" height="25"></font><font color="#00FF00" style="font-size: 22pt">Network</font><font color="#C0C0C0" style="font-size: 22pt">Solutions</font></b><font style="font-size: 22pt"> 
+		Test Tool Box </font><font size="1"> 
+		V. 1.1</font></td>
+	</tr>
+ <table width="100%" cellspacing="0" cellpadding="0">	<tr>
+		<td align="center">
+		<b><font size="2">Pick a Test Script Below:</font></b></td>
+	</tr><tr>
+		<td align="center" height="32">
+		<p><b><font size="2">
+		<img border="0" src="../nsitestscripts/images/unix-icon.gif" width="24" height="24"></font><font size="1">Unix / PHP: </font></b>
+		<font size="1">&nbsp;<a target="middle" href="PHP/mysql%20test.php">MySQL 
+		Connection Test</a> |&nbsp; <a href="PHP/PHPmailer.php">PHP Mail</a>&nbsp; 
+		|&nbsp; <a href="PHP/General_test.php">Simple PHP Script</a>&nbsp; |
+		<a target="middle" href="PHP/AbsolutePath.php">Absolute Path</a>&nbsp; |&nbsp;
+		<a target="middle" href="PHP/Upload/index.php">Upload Script</a>&nbsp;|
+		<a target="middle" href="PHP/phpinfo.php">PHPInfo</a>&nbsp;|&nbsp<a target="middle" href="PHP/formmail.htm">FormMail 
+		Script Unix</a> |&nbsp;
+		<a target="middle" href="Other/Server%20Side%20Include.shtml">Server 
+		Side Includes</a> |&nbsp;
+		<a target="middle" href="Other/ajaxtest.html">AJAX test</a></font><font size="2"> </font></td>
+	</tr></table>
+</div>
+	<div class="para" id="sub2" style="display:none">
+	<p align="right"><font size="1">
+	
+	<table border="0" width="100%" id="table1" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="100%" colspan="2">
+		<p align="center"><b><font color="#00FF00">
+		<img border="0" src="../nsitestscripts/images/studtoolicon.jpg" width="26" height="25"></font><font color="#00FF00" style="font-size: 22pt">Network</font><font color="#C0C0C0" style="font-size: 22pt">Solutions</font></b><font style="font-size: 22pt"> 
+		Test Tool Box </font><font size="1"> 
+		V. 1.1</font></td>
+	</tr>
+
+	<table width="100%" cellspacing="0" cellpadding="0">	<tr>
+		<td align="center">
+		<b><font size="2">Pick a Test Script Below:</font></b></td>
+	</tr><tr>
+		<td align="left">
+		<p align="center">
+		<img border="0" src="../nsitestscripts/images/windows.gif" width="24" height="24"><font size="1"><b>Windows / ASP: </b>
+		<a target="middle" href="ASP/msSQLtest.asp">MS SQL Functionality Test</a> |
+		<a target="middle" href="ASP/AccessTest.asp">Access 
+		Functionality Test</a>&nbsp; |&nbsp; 
+		<a target="middle" href="ASP/Asppath.asp">Absolute Path</a> |
+		<a target="middle" href="ASP/aspinfo.asp">ASPInfo</a> |
+		<a target="middle" href="ASP/ASPmailer.asp">CDOSYS</a> | <a target="middle" href="Other/winformmail.htm">FormMail Script Windows</a> |&nbsp;
+		<a target="middle" href="Other/Server%20Side%20Include.shtml">Server 
+		Side Includes</a>  | <a target="middle" href="Other/winformmail.htm">FormMail Script Windows</a> |&nbsp;
+		<a target="middle" href="ASP/test.html">ColdFusion</a> |&nbsp;
+		<a target="middle" href="Other/ajaxtest.html">AJAX</a></font><font size="2"></font></td>
+	</tr></table>
+	
+</div>
+
+<div class="para"  id="sub3" style="display:none">
+
+</div>
+
+       <script language="JavaScript1.2">
+     var myString = new String("<!--#echo var="SERVER_SOFTWARE" -->");
+
+    var myRegExp = "Apache";
+
+    var answerIdx = myString.search(myRegExp);
+
+    if(answerIdx == -1){
+      displaySubs('sub2');
+    }else{
+      displaySubs('sub1');
+  	  
+    }
+    
+
+   document.close();
+
+    </script>
+  
+
+
+</body>
+
+</html>
